@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: tomcat-deployment
+  namespace: tomcat
   labels:
     app: tomcat
 spec:
@@ -25,6 +26,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: tomcat-service
+  namespace: tomcat
 spec:
   selector:
     app: tomcat
