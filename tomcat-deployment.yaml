@@ -5,8 +5,9 @@ metadata:
   namespace: tomcat
   labels:
     app: tomcat
+    tier: frontend	
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: tomcat
