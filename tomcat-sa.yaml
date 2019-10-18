@@ -16,3 +16,5 @@ subjects:
   - kind: ServiceAccount
     name: codestream
     namespace: tomcat
+# Need to figure out how to create repeatable token
+# For now using admin user token
