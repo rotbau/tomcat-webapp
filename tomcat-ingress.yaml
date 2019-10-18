@@ -5,7 +5,7 @@ metadata:
   namespace: tomcat
 spec:
   rules:
-  - host: webapp.app.rtbsystems.com
+  - host: webapp.k8c03.rtbsystems.com
     http:
       paths:
       - path: /*
